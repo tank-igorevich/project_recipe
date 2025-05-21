@@ -1,0 +1,14 @@
+# Python кеші
+__pycache__/
+*.py[cod]
+# Віртуальне середовище
+venv/
+.venv/
+# Файл змінних середовища
+.env
+# БД SQLite
+*.sqlite3
+# IDE
+.idea/
+*.swp
+.env
