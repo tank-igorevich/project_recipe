@@ -22,7 +22,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # Для DATABASES ви можете використати dj-database-url, або ж:
 if os.getenv('DATABASE_URL'):
-    import dj_database_url
+    import dj_database_url # type: ignore
     DATABASES = {
         'default': dj_database_url.parse(os.getenv('DATABASE_URL'))
     }
